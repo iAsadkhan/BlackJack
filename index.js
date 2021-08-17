@@ -14,6 +14,8 @@ function startGame()
     let secondCard = randomNum()
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
+    document.getElementById("button").disabled=false;
+    document.getElementById("gameover").textContent=""
     renderGame()
 }
 
