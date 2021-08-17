@@ -1,0 +1,43 @@
+html{
+    font-size:62.5%;
+}
+body
+{
+    padding:0;
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: hsla(340, 80%, 69%, 1);
+
+    background: linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+    background-size: cover;
+    text-align: center;
+}
+ h1{
+color:rgb(110, 0, 0);
+font-size: 5rem;
+}
+p{
+    color:honeydew;
+    font-size:2rem;
+}
+button
+{
+    outline:none;
+    border:1px solid rgba(116, 1, 72);
+    padding:1rem 2rem;
+    border-radius:5px;
+    width:150px;
+    color:rgba(116, 1, 72);
+    transition:color 0.7s , background-color 0.7s , border 0.3s, transform 0.2s;
+    margin-bottom: 2rem;
+}
+button:hover
+{
+    background-color:  rgba(116, 1, 72,0.5);
+    color:white;
+    border:1px solid white;
+}
+button:active
+{
+    transform:scale(0.95);
+}
