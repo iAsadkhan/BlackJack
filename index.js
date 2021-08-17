@@ -10,6 +10,7 @@ let cardsnew= document.getElementById("cards");
 function startGame()
 {
     isAlive = true
+    hasBlackJack = false
     let firstCard = randomNum()
     let secondCard = randomNum()
     cards = [firstCard, secondCard]
@@ -61,7 +62,7 @@ function newCard()
         cards.push(card)
         if(sum>21)
         {
-            document.getElementById("button").disabled=true;
+        document.getElementById("button").disabled=true;
         document.getElementById("gameover").textContent="GameOver"
         }
     renderGame();
